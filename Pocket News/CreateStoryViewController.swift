@@ -35,7 +35,14 @@ class CreateStoryViewController: UIViewController, UIImagePickerControllerDelega
         postButton.layer.cornerRadius = postButton.frame.size.height / 4
         
         self.view.backgroundColor = UIColor(red: 240/255.0, green: 240/255.0, blue: 240/255.0, alpha: 1.0)
+        
+        let tap = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
+        self.view.addGestureRecognizer(tap)
 
+    }
+    
+    @objc func dismissKeyboard(){
+        view.endEditing(true)
     }
     
     //what to do after the user picks the image
