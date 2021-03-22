@@ -14,6 +14,12 @@
 		35771B51260694CD00910D2F /* Pocket_News.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 35771B4F260694CD00910D2F /* Pocket_News.xcdatamodeld */; };
 		35771B53260694CF00910D2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35771B52260694CF00910D2F /* Assets.xcassets */; };
 		35771B56260694CF00910D2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35771B54260694CF00910D2F /* LaunchScreen.storyboard */; };
+		35771B5F2606AAC200910D2F /* TrendingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35771B5E2606AAC200910D2F /* TrendingCollectionViewCell.swift */; };
+		35771B622606AB1F00910D2F /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35771B612606AB1F00910D2F /* NewsTableViewCell.swift */; };
+		35771B662606C39B00910D2F /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35771B652606C39B00910D2F /* News.swift */; };
+		35771B932606EC0F00910D2F /* images in Resources */ = {isa = PBXBuildFile; fileRef = 35771B922606EC0F00910D2F /* images */; };
+		35771B9626071F7F00910D2F /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35771B9526071F7E00910D2F /* NewsDetailViewController.swift */; };
+		35771B9926071F9900910D2F /* CreateStoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35771B9826071F9900910D2F /* CreateStoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		35771B52260694CF00910D2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35771B55260694CF00910D2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35771B57260694CF00910D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35771B5E2606AAC200910D2F /* TrendingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingCollectionViewCell.swift; sourceTree = "<group>"; };
+		35771B612606AB1F00910D2F /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		35771B652606C39B00910D2F /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		35771B922606EC0F00910D2F /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		35771B9526071F7E00910D2F /* NewsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
+		35771B9826071F9900910D2F /* CreateStoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateStoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +70,15 @@
 		35771B45260694CD00910D2F /* Pocket News */ = {
 			isa = PBXGroup;
 			children = (
+				35771B922606EC0F00910D2F /* images */,
 				35771B46260694CD00910D2F /* AppDelegate.swift */,
 				35771B48260694CD00910D2F /* SceneDelegate.swift */,
 				35771B4A260694CD00910D2F /* ViewController.swift */,
+				35771B652606C39B00910D2F /* News.swift */,
+				35771B5E2606AAC200910D2F /* TrendingCollectionViewCell.swift */,
+				35771B612606AB1F00910D2F /* NewsTableViewCell.swift */,
+				35771B9526071F7E00910D2F /* NewsDetailViewController.swift */,
+				35771B9826071F9900910D2F /* CreateStoryViewController.swift */,
 				35771B4C260694CD00910D2F /* Main.storyboard */,
 				35771B52260694CF00910D2F /* Assets.xcassets */,
 				35771B54260694CF00910D2F /* LaunchScreen.storyboard */,
@@ -127,6 +145,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35771B932606EC0F00910D2F /* images in Resources */,
 				35771B56260694CF00910D2F /* LaunchScreen.storyboard in Resources */,
 				35771B53260694CF00910D2F /* Assets.xcassets in Resources */,
 				35771B4E260694CD00910D2F /* Main.storyboard in Resources */,
@@ -140,8 +159,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35771B9626071F7F00910D2F /* NewsDetailViewController.swift in Sources */,
 				35771B4B260694CD00910D2F /* ViewController.swift in Sources */,
+				35771B5F2606AAC200910D2F /* TrendingCollectionViewCell.swift in Sources */,
+				35771B622606AB1F00910D2F /* NewsTableViewCell.swift in Sources */,
 				35771B47260694CD00910D2F /* AppDelegate.swift in Sources */,
+				35771B9926071F9900910D2F /* CreateStoryViewController.swift in Sources */,
+				35771B662606C39B00910D2F /* News.swift in Sources */,
 				35771B51260694CD00910D2F /* Pocket_News.xcdatamodeld in Sources */,
 				35771B49260694CD00910D2F /* SceneDelegate.swift in Sources */,
 			);

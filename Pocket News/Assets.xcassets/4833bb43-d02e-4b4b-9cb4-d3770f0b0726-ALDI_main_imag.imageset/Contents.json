@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "4833bb43-d02e-4b4b-9cb4-d3770f0b0726-ALDI_main_imag.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
